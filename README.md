@@ -20,7 +20,7 @@ Create a .env file and add `MONGO_URL=<your mongodb url>`
  ## Searching Ads with `the` search String
 ![Searching Ads with `this` search string](./client/assets/query.png)
 
-## Searcing Ads in postman with `this` search String
-![Querying Adsin postman with `this` search string](./client/assets/postman.png)
+## Searcing Ads in postman with `the` search String
+![Querying Adsin postman with `the` search string](./client/assets/postman.png)
 
 
