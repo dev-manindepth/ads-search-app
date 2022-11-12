@@ -4,7 +4,7 @@ import axios from "axios";
 import Button from "../Button/Button";
 import "./search.css";
 const Search = () => {
-  const [searchTerm, setSearchTerm] = useState();
+  const [searchTerm, setSearchTerm] = useState(undefined);
   const [result, setResult] = useState([]);
   const [error, setError] = useState("");
 
@@ -12,7 +12,7 @@ const Search = () => {
   let searchUrl = `http://localhost:8000/api/v1/ads/search?searchTerm=${searchTerm}`;
 
   useEffect(() => {
-    axios(searchUrl)
+    searchTerm && axios(searchUrl)
       .then((data) => setResult(data.data.ads))
       .catch((err) => setError(err.message));
   }, [searchTerm]);
@@ -31,7 +31,7 @@ const Search = () => {
         className="inputContainer"
       />
       <div className="resultContainer">
-        {result &&
+        {searchTerm && result &&
           result.map((res) => {
             return (
               <div className="adsContainer">
