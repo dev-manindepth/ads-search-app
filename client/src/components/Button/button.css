@@ -1,0 +1,17 @@
+.button{
+    border: none;
+    padding: 0.8rem 1.6rem;
+    background-color: #333333;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    margin: auto;
+}
+.button > a{
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}

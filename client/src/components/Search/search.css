@@ -1,0 +1,60 @@
+.searchContainer{
+    width: 1400px;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.searchTitle{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.inputContainer{
+    padding: 0.8rem;
+    width: 400px;
+    max-width: 90%;
+    font-size: 1.2rem;
+    border-radius: .2rem;
+    margin-top: 2rem;
+}
+.resultContainer{
+    margin-top: 3rem;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr ;
+}
+.adsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 1rem;
+}
+.imgContainer{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+   text-align: center;
+}
+.textContainer{
+    display: grid;
+    gap: .5rem;
+    padding: 1rem;
+}
+img{
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    height: 100%;
+    width: 100%;
+  object-position: right top;
+}
+
+
+.headline{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.primaryText{
+    font-size: 1.2rem;
+}
