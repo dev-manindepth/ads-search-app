@@ -17,5 +17,10 @@ Create a .env file and add `MONGO_URL=<your mongodb url>`
 * [Get All Company]() : `GET /api/v1/company`
 * [Create Company]() : `POST /api/v1/company`
 
+ ## Searching Ads with `the` search String
+![Searching Ads with `this` search string](./client/assets/query.png)
+
+## Searcing Ads in postman with `this` search String
+![Querying Adsin postman with `this` search string](./client/assets/postman.png)
 
 
